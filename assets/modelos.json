@@ -1,0 +1,42 @@
+[
+  {
+    "id": "contrato-rescisao",
+    "categoria": "Contratos",
+    "certidao": "Rescisão Contratual",
+    "apontamento": "Cláusula Penal",
+    "texto": "Art. 408 - A cláusula penal é a que as partes estipulam...",
+    "formatado": [
+      {
+        "tipo": "PARAGRAPH",
+        "elementos": [
+          {
+            "texto": "Art. 408 - ",
+            "estilo": {"negrito": true}
+          },
+          {
+            "texto": "A cláusula penal é a que as partes estipulam...",
+            "estilo": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "processual-inicial",
+    "categoria": "Processual",
+    "certidao": "Ação Ordinária",
+    "apontamento": "Petição Inicial",
+    "texto": "EXMO. SR. DR. JUIZ DE DIREITO DA __ VARA CÍVEL...",
+    "formatado": [
+      {
+        "tipo": "PARAGRAPH",
+        "elementos": [
+          {
+            "texto": "EXMO. SR. DR. JUIZ DE DIREITO DA __ VARA CÍVEL...",
+            "estilo": {"negrito": true, "italico": true}
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legal Back - Modelos Jurídicos</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="cabecalho">
+      <i class="material-icons">gavel</i>
+      <h1>Legal Back</h1>
+    </header>
+
+    <div class="controles">
+      <div class="campo-busca">
+        <input type="text" id="campo-busca" placeholder="Buscar modelos...">
+        <i class="material-icons">search</i>
+      </div>
+
+      <div class="filtros">
+        <select id="filtro-categoria">
+          <option value="">Todas categorias</option>
+        </select>
+        <select id="filtro-certidao">
+          <option value="">Todas certidões</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="abas">
+      <button class="aba ativa" data-aba="todos">Todos</button>
+      <button class="aba" data-aba="favoritos">Favoritos</button>
+      <button class="aba" data-aba="mais-usados">Mais usados</button>
+    </div>
+
+    <div class="lista-modelos" id="lista-modelos">
+      <!-- Modelos serão carregados aqui -->
+    </div>
+
+    <div class="status" id="status">
+      <p>Carregando modelos...</p>
+    </div>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

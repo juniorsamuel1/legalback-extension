@@ -1,0 +1,90 @@
+#legalback-sidebar {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+#legalback-sidebar .cabecalho {
+  margin-bottom: 20px;
+}
+
+#legalback-sidebar #busca {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#legalback-sidebar .modelo {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+#legalback-sidebar .cabecalho-modelo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#legalback-sidebar .cabecalho-modelo h3 {
+  font-size: 16px;
+  color: #202124;
+}
+
+#legalback-sidebar .favorito {
+  color: gold;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+#legalback-sidebar .metadados {
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: #5f6368;
+}
+
+#legalback-sidebar .categoria {
+  font-weight: 500;
+}
+
+#legalback-sidebar .certidao {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+#legalback-sidebar .botao-inserir {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#legalback-sidebar .botao-inserir:hover {
+  background-color: #1765cc;
+}
+
+#legalback-sidebar .carregando,
+#legalback-sidebar .erro {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#legalback-sidebar .erro {
+  color: #d32f2f;
+}
+
+#legalback-sidebar #tentar-novamente {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
